@@ -1,0 +1,220 @@
+import vectorOne from '../assets/vector-1.svg';
+import peanuts from '../assets/export-img2.png';
+import kernelNuts from '../assets/export-img3.png';
+import footerLogo from '../assets/footer-logo.png';
+
+const footer = document.querySelector('.footer');
+
+function loadFooter() {
+	const footerTemplate = `
+    <div class="newsletter-layout">
+      <div class="img-wrap">
+        <img src="${vectorOne}" alt="" />
+      </div>
+
+      <div class="wrap">
+        <div class="text-wrap">
+          <h3 class="heading">
+            Don't miss any of our products in high-yield seasons
+          </h3>
+
+          <p class="subtext">
+            Join our Mailing and Newsletter list and get instant notification
+            in your inbox
+          </p>
+        </div>
+
+        <div class="form-wrap">
+          <form action="" class="newsletter-form">
+            <div class="wrap">
+              <input
+                type="text"
+                id="subscriber-email"
+                name="subscriber-name"
+                placeholder="Your Name" />
+              <input
+                type="email"
+                name="subscriber-email"
+                id="subscriber-email"
+                placeholder="Your Email Address" />
+            </div>
+
+            <div class="btn-wrap">
+              <button class="submit-btn" type="submit">
+                Subscribe to Newsletter
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-section">
+      <div class="img-wrap pos-img1">
+        <img src="${peanuts}" alt="peanuts" />
+      </div>
+      
+      <div class="img-wrap pos-img2">
+        <img src="${kernelNuts}" alt="kernel nuts" />
+      </div>
+
+      <div class="container">
+        <div class="text-wrap">
+          <h3 class="heading">Frequently asked questions</h3>
+          <p class="subtext">
+            Got a question about Dohva Transafrican? Don’t worry we have got
+            you covered
+          </p>
+        </div>
+
+        <!-- accordion -->
+        <div class="accordion">
+          <div class="container">
+            <!-- item 1 -->
+            <div class="accordion-item">
+              <div class="question-wrap">
+                <h4 class="text">What is Dohva Trabsafrican?</h4>
+
+                <div class="icon-wrap">+</div>
+              </div>
+
+              <div class="content">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
+                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
+                  sit id metus. Consectetur lacus placerat vestibulum volutpat
+                  elit.
+                </p>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="accordion-item">
+              <div class="question-wrap">
+                <h4 class="text">What are the payment terms?</h4>
+
+                <div class="icon-wrap">+</div>
+              </div>
+
+              <div class="content">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
+                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
+                  sit id metus. Consectetur lacus placerat vestibulum volutpat
+                  elit.
+                </p>
+              </div>
+            </div>
+
+            <!-- item 3 -->
+            <div class="accordion-item">
+              <div class="question-wrap">
+                <h4 class="text">How can I track my shipment?</h4>
+
+                <div class="icon-wrap">+</div>
+              </div>
+
+              <div class="content">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
+                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
+                  sit id metus. Consectetur lacus placerat vestibulum volutpat
+                  elit.
+                </p>
+              </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="accordion-item">
+              <div class="question-wrap">
+                <h4 class="text">
+                  Is Dohva a registered member of Nigerian Export Pormotion
+                  Council?
+                </h4>
+
+                <div class="icon-wrap">+</div>
+              </div>
+
+              <div class="content">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
+                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
+                  sit id metus. Consectetur lacus placerat vestibulum volutpat
+                  elit.
+                </p>
+              </div>
+            </div>
+
+            <!-- item 5 -->
+            <div class="accordion-item">
+              <div class="question-wrap">
+                <h4 class="text">What is Dohva Trabsafrican?</h4>
+
+                <div class="icon-wrap">+</div>
+              </div>
+
+              <div class="content">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
+                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
+                  sit id metus. Consectetur lacus placerat vestibulum volutpat
+                  elit.
+                </p>
+              </div>
+            </div>
+
+            <!-- item 6 -->
+            <div class="accordion-item">
+              <div class="question-wrap">
+                <h4 class="text">What is Dohva Trabsafrican?</h4>
+
+                <div class="icon-wrap">+</div>
+              </div>
+
+              <div class="content">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
+                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
+                  sit id metus. Consectetur lacus placerat vestibulum volutpat
+                  elit.
+                </p>
+              </div>
+            </div>
+
+            <!-- item 7 -->
+            <div class="accordion-item">
+              <div class="question-wrap">
+                <h4 class="text">What is Dohva Trabsafrican?</h4>
+
+                <div class="icon-wrap">+</div>
+              </div>
+
+              <div class="content">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
+                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
+                  sit id metus. Consectetur lacus placerat vestibulum volutpat
+                  elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="container">
+        <div class="logo-wrap">
+          <img src="${footerLogo}" alt="footer logo" />
+        </div>
+      </div>
+    </div>
+  `;
+
+	if (footer) {
+		footer.innerHTML = footerTemplate;
+	}
+}
+
+export { loadFooter };

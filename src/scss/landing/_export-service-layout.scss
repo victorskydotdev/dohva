@@ -1,0 +1,63 @@
+@import '../resets';
+
+.export-service-layout {
+	background: rgba(153, 161, 166, 0.384);
+	min-height: 600px;
+	padding: 5em 0;
+	margin-bottom: 7em;
+
+	.container {
+		width: 85%;
+		margin: 0 auto;
+
+		.section-title-wrap {
+			margin-bottom: 3em;
+
+			.text {
+				font-size: 2rem;
+				max-width: 700px;
+			}
+		}
+
+		.wrap {
+			display: grid;
+			gap: 2em;
+
+			.img-wrap {
+				width: 100%;
+
+				img {
+					width: 100%;
+					height: 400px;
+					object-fit: cover;
+				}
+			}
+
+			.text-wrap {
+				max-width: 500px;
+
+				.text {
+					font-size: 1rem;
+					@include poppins-medium();
+
+					line-height: 1.8;
+					margin-bottom: 1.5em;
+				}
+
+				.btn {
+					@include btn-mixin();
+				}
+			}
+
+			@media screen and (min-width: 62em) {
+				display: flex;
+
+				.text-wrap {
+					.text {
+						padding-top: 3em;
+					}
+				}
+			}
+		}
+	}
+}

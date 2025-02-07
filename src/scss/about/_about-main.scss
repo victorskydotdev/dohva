@@ -1,0 +1,15 @@
+@import '../resets';
+
+.about-main {
+	height: 80vh;
+	// margin-bottom: 5em;
+	background: $dark;
+
+	.img-wrap {
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+@import '../resets';
+
+.location-area {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+
+		.heading {
+			font-size: 2rem;
+			@include poppins-black();
+			max-width: 600px;
+			margin: 0 auto 1.3em auto;
+		}
+
+		.img-wrap {
+			img {
+				width: 100%;
+			}
+
+			@media screen and (min-width: 62em) {
+				img {
+					width: 70%;
+				}
+			}
+		}
+	}
+}
