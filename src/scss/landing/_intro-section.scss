@@ -30,11 +30,11 @@
 		.text-wrap {
 			position: absolute;
 			left: 10.6%;
-			// background: red;
 			padding-top: 2em;
 
 			.heading {
 				font-size: clamp(2vw, 5rem, 4vw);
+				color: $dark;
 			}
 
 			.subtext {

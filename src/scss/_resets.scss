@@ -8,6 +8,13 @@
 	box-sizing: border-box;
 }
 
+// color variables
+$blue: #0000fe;
+$red: #ff0000;
+$dark: #1e1926;
+$light: #ffffff;
+$grey: #99a1a6;
+
 @mixin poppins-regular() {
 	font-family: 'Poppins', serif;
 	font-weight: 400;
@@ -56,13 +63,6 @@ li {
 	list-style: none;
 }
 
-// color variables
-$blue: #0000fe;
-$red: #ff0000;
-$dark: #1e1926;
-$light: #ffffff;
-$grey: #99a1a6;
-
 @mixin btn-mixin() {
 	background: $blue;
 	padding: 1em 1.3em;
@@ -79,4 +79,11 @@ $grey: #99a1a6;
 		background: rgba(0, 0, 254, 0.801);
 		border-bottom: 2px solid $red;
 	}
+}
+
+@mixin heading-mixin() {
+	color: $dark;
+	font-size: 2rem;
+	@include poppins-black();
+	text-transform: capitalize;
 }

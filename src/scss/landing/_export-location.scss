@@ -7,8 +7,7 @@
 		text-align: center;
 
 		.heading {
-			font-size: 2rem;
-			@include poppins-black();
+			@include heading-mixin();
 			max-width: 600px;
 			margin: 0 auto 1.3em auto;
 		}

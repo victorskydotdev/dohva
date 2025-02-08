@@ -1,14 +1,16 @@
 @import '../resets';
 
-.about-main {
+@import '../resets';
+
+.contact-main {
 	height: 85vh;
-	margin-bottom: 10em;
+	// margin-bottom: 10em;
 	background: $dark;
 	position: relative;
 
 	// margin for desktop
 	@media screen and (min-width: 62em) {
-		margin-bottom: 20em;
+		// margin-bottom: 20em;
 	}
 
 	.img-wrap {
@@ -33,46 +35,22 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		z-index: 1;
+		z-index: 2;
 		color: $light;
 		text-align: center;
 
 		.heading {
 			margin-bottom: 1em;
-			font-size: 3rem;
+			font-size: 2rem;
 			@include poppins-black();
-			max-width: 1000px;
-			white-space: nowrap;
+			max-width: 600px;
 			margin: 0 auto;
 			margin-bottom: 0.5em;
 			text-transform: capitalize;
 		}
 
-		.subtext {
-			line-height: 1.7;
-		}
-
 		@media screen and (min-width: 62em) {
 			max-width: 600px;
-		}
-	}
-
-	.img-wrap2 {
-		position: absolute;
-		top: 70%;
-		left: 50%;
-		transform: translateX(-50%);
-
-		img {
-			width: 350px;
-		}
-
-		@media screen and (min-width: 62em) {
-			top: 73%;
-
-			img {
-				width: 400px;
-			}
 		}
 	}
 }

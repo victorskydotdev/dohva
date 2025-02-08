@@ -140,12 +140,10 @@
 				margin: 0 auto 4em auto;
 
 				.heading {
-					font-size: 2rem;
-					@include poppins-black();
+					@include heading-mixin();
 					max-width: 600px;
 					margin: 0 auto;
 					margin-bottom: 0.5em;
-					text-transform: capitalize;
 				}
 			}
 

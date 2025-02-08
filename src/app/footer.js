@@ -148,56 +148,40 @@ function loadFooter() {
             <!-- item 5 -->
             <div class="accordion-item">
               <div class="question-wrap">
-                <h4 class="text">What is Dohva Trabsafrican?</h4>
+                <h4 class="text">Why partner with Dohva?</h4>
 
                 <div class="icon-wrap">+</div>
               </div>
 
               <div class="content">
                 <p class="text">
-                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
-                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
-                  sit id metus. Consectetur lacus placerat vestibulum volutpat
-                  elit.
-                </p>
-              </div>
-            </div>
-
-            <!-- item 6 -->
-            <div class="accordion-item">
-              <div class="question-wrap">
-                <h4 class="text">What is Dohva Trabsafrican?</h4>
-
-                <div class="icon-wrap">+</div>
-              </div>
-
-              <div class="content">
+                  Flexible Payment Options:
+                  We accept payment via Letter of Credit (L/C), a payment method that many importers in Nigeria do not accommodate. This flexibility provides our customers with greater convenience and security in their transactions.
+                </p> <br>
+                
                 <p class="text">
-                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
-                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
-                  sit id metus. Consectetur lacus placerat vestibulum volutpat
-                  elit.
-                </p>
-              </div>
-            </div>
-
-            <!-- item 7 -->
-            <div class="accordion-item">
-              <div class="question-wrap">
-                <h4 class="text">What is Dohva Trabsafrican?</h4>
-
-                <div class="icon-wrap">+</div>
-              </div>
-
-              <div class="content">
+                  High-Quality Products:
+                  Our products contain fewer impurities, ensuring a higher level of quality and reliability for our clients.
+                </p> <br>
+                
                 <p class="text">
-                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
-                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
-                  sit id metus. Consectetur lacus placerat vestibulum volutpat
-                  elit.
+                  Timely Delivery:
+                  We deliver products on time, ensuring that our clients receive their orders as scheduled, which helps them maintain their operations without delays.
+                </p> <br>
+                
+                <p class="text">
+                  Extensive Experience in Exporting:
+                  With a wealth of experience in exporting, we know where and how to source the best export commodities, ensuring that our clients receive top-notch products tailored to their needs.
+                </p> <br>
+                
+                <p class="text">
+                  Unbeatable Prices:
+                  Our customers benefit from unbeatable prices that are hard to find anywhere else, providing exceptional value for their investments.
                 </p>
               </div>
             </div>
+
+            
           </div>
         </div>
       </div>
