@@ -27,10 +27,23 @@
 				.prod-card {
 					height: 400px;
 					width: 100%;
-					background: $blue;
+					// background: $blue;
 					border-radius: 15px;
 					position: relative;
 					color: $light;
+
+					.img-wrap {
+						position: absolute;
+						height: 100%;
+						width: 100%;
+						z-index: 0;
+
+						img {
+							height: 100%;
+							width: 100%;
+							object-fit: cover;
+						}
+					}
 
 					.text-wrap {
 						position: absolute;
@@ -78,6 +91,7 @@
 							transition: all 0.5s ease;
 							border-radius: 15px;
 							transform-origin: top;
+							z-index: 1;
 						}
 
 						&:hover::before {
@@ -100,6 +114,9 @@
 							opacity: 0;
 							transition: all 0.5s ease;
 							padding: 1em;
+							z-index: 1;
+							border-radius: 15px;
+							text-transform: capitalize;
 						}
 
 						&:hover::after {
@@ -110,7 +127,7 @@
 							transition: all 0.5s ease-in-out;
 							max-width: 370px;
 							z-index: 1;
-							bottom: -1%;
+							bottom: -10%;
 
 							.prod-desc {
 								transition: all 0.5s ease-in-out;

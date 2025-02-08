@@ -12,7 +12,7 @@ const runTransitions = () => {
 			entries.forEach((entry) => {
 				if (entry.isIntersecting) {
 					console.log(`${entry.target} has been observed`);
-					entry.target.style.backgroundColor = 'red';
+					// entry.target.style.backgroundColor = 'red';
 				}
 			});
 		}, options);
