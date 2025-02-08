@@ -78,7 +78,7 @@
 			height: fit-content;
 
 			display: grid;
-			gap: 3em;
+			gap: 1.6em;
 
 			.wrap {
 				.heading {
@@ -126,9 +126,9 @@
 			grid-template-columns: repeat(2, 1fr);
 			justify-content: center;
 
-			.form-wrap {
-				// width: 100%;
-			}
+			// .form-wrap {
+			// 	// width: 100%;
+			// }
 		}
 	}
 }

@@ -98,10 +98,7 @@ function loadFooter() {
 
               <div class="content">
                 <p class="text">
-                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
-                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
-                  sit id metus. Consectetur lacus placerat vestibulum volutpat
-                  elit.
+                  Our payment terms usually require Credit Letters.
                 </p>
               </div>
             </div>
@@ -116,10 +113,7 @@ function loadFooter() {
 
               <div class="content">
                 <p class="text">
-                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
-                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
-                  sit id metus. Consectetur lacus placerat vestibulum volutpat
-                  elit.
+                  We provide tracking information once your order is dispatched.
                 </p>
               </div>
             </div>
@@ -137,10 +131,7 @@ function loadFooter() {
 
               <div class="content">
                 <p class="text">
-                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
-                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
-                  sit id metus. Consectetur lacus placerat vestibulum volutpat
-                  elit.
+                  Yes, we are a registered member of the Nigerian Export Promotion Council.
                 </p>
               </div>
             </div>
