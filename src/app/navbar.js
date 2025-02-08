@@ -14,6 +14,7 @@ function loadNavbar() {
         <li class="nav-links">
           <a href="/" class="link">Home</a>
         </li>
+
         <li class="nav-links">
           <a href="/about.html" class="link">About</a>
         </li>
@@ -25,11 +26,22 @@ function loadNavbar() {
           <a href="/contact.html" class="link">Contact</a>
         </li>
       </ul>
+
+      <div class="burger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </nav>
   `;
 
 	if (headerElement) {
 		headerElement.innerHTML = navTemplate;
+
+		const burger = document.querySelector('.burger');
+		const navWrap = document.querySelector('.nav-wrap');
+
+		burger.addEventListener('click', () => {
+			navWrap.classList.toggle('display-navbar');
+		});
 	}
 }
 
