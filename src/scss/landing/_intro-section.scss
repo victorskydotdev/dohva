@@ -33,36 +33,67 @@
 			padding-top: 2em;
 
 			.heading {
-				font-size: clamp(2vw, 5rem, 4vw);
+				font-size: 2.5rem;
 				color: $dark;
+				margin-bottom: 0.5em;
+
+				@media screen and (min-width: 62em) {
+					font-size: 3.3rem;
+				}
 			}
 
 			.subtext {
-				font-size: 40px;
-				max-width: 800px;
-				margin-left: 2em;
-				line-height: 1.3;
 				color: $grey;
-				margin-bottom: 0.6em;
+				line-height: 1.7;
+				font-size: 1.4rem;
+				margin-bottom: 1em;
+
+				@media screen and (min-width: 62em) {
+					font-size: 40px;
+					max-width: 800px;
+					margin-left: 2em;
+				}
 			}
 
 			.btn {
 				@include btn-mixin();
-				margin-left: 5em;
+
+				@media screen and (min-width: 62em) {
+					margin-left: 5em;
+				}
 			}
 		}
 	}
 
 	.sec-img-wrap {
 		position: absolute;
-		bottom: -15%;
-		right: 0;
+		bottom: -25%;
+
+		right: 5%;
 
 		.positioned-img {
-			width: 60%;
+			width: 300px;
 			border-right: solid 5px $red;
 			border-bottom: solid 5px $red;
 			border-bottom-right-radius: 40px;
+		}
+
+		@media screen and (min-width: 43em) {
+			bottom: -10%;
+			right: 10%;
+		}
+
+		@media screen and (min-width: 62em) {
+			bottom: -15%;
+			right: 20%;
+			// background: red;
+
+			.positioned-img {
+				width: 300px;
+				border-right: solid 5px $red;
+				border-bottom: solid 5px $red;
+				border-bottom-right-radius: 40px;
+			}
 		}
 	}
 }
