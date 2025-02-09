@@ -1,0 +1,69 @@
+@import '../resets';
+
+.team-profile-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba($color: #000000, $alpha: 0.7);
+	z-index: 4;
+	transition: all 0.5s ease-in-out;
+	transform: translateY(-100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.container {
+		background: $light;
+		width: 90%;
+		margin: 0 auto;
+		height: 600px;
+		overflow: auto;
+		border-radius: 40px;
+		padding: 4em;
+		position: relative;
+
+		.close-btn {
+			background: $red;
+			border: none;
+			padding: 0.8em 1em;
+			color: $light;
+			position: fixed;
+			right: 10%;
+			top: 10%;
+			cursor: pointer;
+			border-radius: 8px;
+
+			i {
+				font-size: 1.1rem;
+			}
+
+			@media screen and (min-width: 43em) {
+				right: 20%;
+			}
+
+			@media screen and (min-width: 62em) {
+				right: 28%;
+			}
+		}
+
+		.heading {
+			margin-bottom: 1.2em;
+			font-size: 1.3rem;
+		}
+
+		@media screen and (min-width: 43em) {
+			width: 70%;
+		}
+
+		@media screen and (min-width: 62em) {
+			width: 50%;
+		}
+	}
+}
+
+.show-profile-modal {
+	transform: translateY(0);
+}

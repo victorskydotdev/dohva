@@ -42,7 +42,7 @@
 			font-size: 3rem;
 			@include poppins-black();
 			max-width: 1000px;
-			white-space: nowrap;
+			// white-space: nowrap;
 			margin: 0 auto;
 			margin-bottom: 0.5em;
 			text-transform: capitalize;
@@ -53,7 +53,11 @@
 		}
 
 		@media screen and (min-width: 62em) {
-			max-width: 600px;
+			max-width: 700px;
+
+			.heading {
+				white-space: nowrap;
+			}
 		}
 	}
 

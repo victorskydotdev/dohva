@@ -29,8 +29,9 @@
 		margin: 0 auto;
 		display: grid;
 		gap: 3em;
-		padding: 5em;
+		// padding: 5em;
 		grid-template-areas: 'text-area' 'img-wrap';
+		// background: teal;
 
 		.text-area {
 			color: $light;
@@ -70,9 +71,14 @@
 			}
 		}
 
+		@media screen and (min-width: 43em) {
+			width: 60%;
+			padding: 6em 0;
+		}
+
 		@media screen and (min-width: 62em) {
 			width: 85%;
-
+			padding: 5em;
 			grid-template-columns: repeat(2, 1fr);
 			grid-template-areas: 'img-wrap text-area';
 
