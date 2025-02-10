@@ -1,0 +1,14 @@
+@import '../scss/resets';
+
+.intersecting-element {
+	transform: translateY(80%);
+	opacity: 0;
+	transition: all 0.8s ease;
+	// display: inline-block;
+}
+
+.animate-elements-on-scroll {
+	transform: translateY(0);
+	opacity: 1;
+	// background: red;
+}

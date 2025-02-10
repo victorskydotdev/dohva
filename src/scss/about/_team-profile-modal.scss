@@ -26,27 +26,7 @@
 		position: relative;
 
 		.close-btn {
-			background: $red;
-			border: none;
-			padding: 0.8em 1em;
-			color: $light;
-			position: fixed;
-			right: 10%;
-			top: 10%;
-			cursor: pointer;
-			border-radius: 8px;
-
-			i {
-				font-size: 1.1rem;
-			}
-
-			@media screen and (min-width: 43em) {
-				right: 20%;
-			}
-
-			@media screen and (min-width: 62em) {
-				right: 28%;
-			}
+			@include modal-close-btn();
 		}
 
 		.heading {

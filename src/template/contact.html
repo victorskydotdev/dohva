@@ -27,7 +27,7 @@
 				<img src="../assets/vector-2.svg" alt="" />
 			</div>
 
-			<div class="container">
+			<div class="container intersecting-element">
 				<h3 class="heading">Need help? We’re here for you 24/7</h3>
 
 				<p class="subtext">
@@ -39,12 +39,12 @@
 
 		<div class="contact-form-section">
 			<div class="container">
-				<div class="form-wrap">
+				<div class="form-wrap intersecting-element">
 					<div class="heading-wrap">
 						<h4 class="heading">Contact our sales team</h4>
 					</div>
 
-					<form action="" class="contact-form">
+					<form action="" class="contact-form" name="contact-form" netlify>
 						<div class="wrap name-wrap">
 							<input
 								type="text"
@@ -88,10 +88,12 @@
 					</form>
 				</div>
 
-				<div class="contact-info">
+				<div class="contact-info intersecting-element">
 					<div class="wrap">
 						<h4 class="heading">Send us an email</h4>
-						<p class="email-link">info@dohvaafrica.com</p>
+						<p class="email-link">
+							<a href="mailto:info@dohvaafrica.com">info@dohvaafrica.com</a>
+						</p>
 					</div>
 
 					<div class="wrap">
@@ -102,19 +104,82 @@
 					<div class="wrap">
 						<h4 class="heading">Connect with us</h4>
 						<div class="social-media">
-							<i class="fa-brands fa-facebook"></i>
+							<a href="https://www.facebook.com/share/167xY9g4b2/">
+								<i class="fa-brands fa-facebook"></i>
+							</a>
 						</div>
 					</div>
 
 					<div class="wrap">
 						<h4 class="heading">You can DM us on WhatsApp</h4>
 
-						<a href="https://wa.me/+234" class="whatsapp-link"
+						<a
+							href="https://wa.me/+2347062481508"
+							target="_blank"
+							class="whatsapp-link"
 							><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
 						>
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<section class="contact-third-section">
+			<div class="container">
+				<div class="text-wrap">
+					<h3 class="heading intersecting-element">
+						We specialize in exporting high quality agricultural products and
+						bio-energy solutions
+					</h3>
+
+					<div class="btn-wrap intersecting-element">
+						<button class="btn">See our products</button>
+					</div>
+				</div>
+
+				<div class="img-wrap intersecting-element">
+					<img src="../assets/export-img.png" alt="" />
+				</div>
+			</div>
+		</section>
+
+		<div class="address-section">
+			<div class="text-wrap intersecting-element">
+				<h3 class="heading">Our offices</h3>
+			</div>
+
+			<div class="container">
+				<div class="address-card intersecting-element">
+					<div class="wrap">
+						<div class="icon">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<h4 class="heading">Lagos</h4>
+						<p class="text">
+							Kamola Plaza, #31 Okota Road, Isolo, Lagos, Nigeria
+						</p>
+					</div>
+				</div>
+
+				<div class="address-card intersecting-element">
+					<div class="wrap">
+						<div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+						<h4 class="heading">Imo</h4>
+						<p class="text">
+							#1 Bluefig Drive Off Naze Ring Road Owerri Imo State Nigeria
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- whatsapp chat icon link -->
+		<div class="fixed-whatsapp">
+			<button class="whatsapp-btn">
+				<a href="https://wa.me/+2347062481508" target="_blank">
+					<img src="../assets/whatsapp.png" alt="" />
+				</a>
+			</button>
 		</div>
 
 		<footer class="footer">

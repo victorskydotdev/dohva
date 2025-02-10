@@ -14,18 +14,18 @@ function loadFooter() {
 
       <div class="wrap">
         <div class="text-wrap">
-          <h3 class="heading">
+          <h3 class="heading intersecting-element">
             Don't miss any of our products in high-yield seasons
           </h3>
 
-          <p class="subtext">
+          <p class="subtext intersecting-element">
             Join our Mailing and Newsletter list and get instant notification
             in your inbox
           </p>
         </div>
 
-        <div class="form-wrap">
-          <form action="" class="newsletter-form">
+        <div class="form-wrap intersecting-element">
+          <form action="/" name="newsletter-form" netlify class="newsletter-form">
             <div class="wrap">
               <input
                 type="text"
@@ -49,7 +49,7 @@ function loadFooter() {
       </div>
     </div>
 
-    <div class="faq-section">
+    <div class="faq-section ">
       <div class="img-wrap pos-img1">
         <img src="${peanuts}" alt="peanuts" />
       </div>
@@ -58,8 +58,8 @@ function loadFooter() {
         <img src="${kernelNuts}" alt="kernel nuts" />
       </div>
 
-      <div class="container">
-        <div class="text-wrap">
+      <div class="container ">
+        <div class="text-wrap ">
           <h3 class="heading">Frequently asked questions</h3>
           <p class="subtext">
             Got a question about Dohva Transafrican? Don’t worry we have got

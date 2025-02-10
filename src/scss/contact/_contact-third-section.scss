@@ -1,0 +1,92 @@
+@import '../resets';
+
+.contact-third-section {
+	margin-bottom: 11em;
+	position: relative;
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+		display: grid;
+		gap: 3em;
+		position: relative;
+		z-index: 1;
+
+		.text-wrap {
+			width: 100%;
+
+			.heading {
+				color: $grey;
+				line-height: 1.7;
+				font-size: 1.4rem;
+				margin-bottom: 1em;
+
+				// @media screen and (min-width: 62em) {
+				// 	font-size: 40px;
+				// 	max-width: 800px;
+				// 	margin-left: 2em;
+				// }
+			}
+
+			.btn {
+				@include btn-mixin();
+			}
+		}
+
+		.img-wrap {
+			width: 100%;
+			height: 400px;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		@media screen and (min-width: 43em) {
+			width: 60%;
+		}
+
+		@media screen and (min-width: 62em) {
+			display: flex;
+			width: 70%;
+
+			.text-wrap {
+				padding-top: 5em;
+				max-width: 500px;
+			}
+
+			.img-wrap {
+				width: 100%;
+
+				img {
+					border-radius: 30px;
+				}
+			}
+		}
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		background: #ededed;
+		height: 800px;
+		width: 100%;
+		top: -10%;
+		left: 0;
+		// z-index: 1;
+		border-radius: 40px;
+
+		@media screen and (min-width: 43em) {
+			top: -10%;
+			height: 750px;
+		}
+
+		@media screen and (min-width: 62em) {
+			width: 90%;
+			left: 5%;
+			top: -15%;
+			height: 520px;
+		}
+	}
+}

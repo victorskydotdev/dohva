@@ -1,5 +1,6 @@
 @import '../scss/navbar';
 @import '../scss/footer';
+@import '../scss/transitions';
 
 @import '../scss/landing/hero-section';
 @import '../scss/landing/intro-section';
@@ -16,7 +17,9 @@
 
 // contact page styles
 @import '../scss/contact/contact-main';
-@import '../scss//contact/contact-form';
+@import '../scss/contact/contact-form';
+@import '../scss/contact/contact-third-section';
+@import '../scss/contact/address';
 
 // popup modals
 @import '../scss/quote-form-modal';

@@ -88,3 +88,61 @@ li {
 	@include poppins-black();
 	text-transform: capitalize;
 }
+
+@mixin shadow() {
+	-webkit-box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.13);
+	box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.13);
+}
+
+@mixin modal-close-btn() {
+	background: $red;
+	border: none;
+	padding: 0.8em 1em;
+	color: $light;
+	position: fixed;
+	right: 10%;
+	top: 10%;
+	cursor: pointer;
+	border-radius: 8px;
+
+	i {
+		font-size: 1.1rem;
+	}
+
+	@media screen and (min-width: 43em) {
+		right: 20%;
+	}
+
+	@media screen and (min-width: 62em) {
+		right: 28%;
+	}
+}
+
+.fixed-whatsapp {
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	z-index: 2;
+
+	.whatsapp-btn {
+		background: $light;
+		border: none;
+		@include shadow();
+		border-radius: 20px;
+
+		a {
+			height: 5em;
+			width: 5em;
+			display: inline-block;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			// border-radius: 100%;
+
+			img {
+				width: 50px;
+			}
+		}
+	}
+}
