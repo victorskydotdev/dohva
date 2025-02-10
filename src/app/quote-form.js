@@ -83,22 +83,24 @@ const formInteraction = () => {
 
 			for (let index = 0; index < idArray.length; index += 1) {
 				if (idArray[index] === id) {
-					domBody.style.overflow = 'hidden';
-					quoteFormModal.classList.add('show-form-modal');
+					alert('button clicked');
 
-					quoteFormModal.innerHTML = formTemplate();
+					window.location.href = '/quote.html';
+					// domBody.style.overflow = 'hidden';
+					// quoteFormModal.classList.add('show-form-modal');
+					// quoteFormModal.innerHTML = formTemplate();
 
-					const closeBtn = document.querySelector('.quote-form-close-btn');
+					// const closeBtn = document.querySelector('.quote-form-close-btn');
 
-					const form = document.querySelector('.quote-form');
+					// const form = document.querySelector('.quote-form');
 
 					// close-modal-logic
-					closeBtn.addEventListener('click', () => {
-						domBody.style.overflow = 'auto';
-						quoteFormModal.innerHTML = '';
+					// closeBtn.addEventListener('click', () => {
+					// 	domBody.style.overflow = 'auto';
+					// 	quoteFormModal.innerHTML = '';
 
-						quoteFormModal.classList.remove('show-form-modal');
-					}); // end of close modal
+					// 	quoteFormModal.classList.remove('show-form-modal');
+					// }); // end of close modal
 
 					const submitForm = () => {
 						form.addEventListener('submit', async (event) => {
@@ -138,7 +140,7 @@ const formInteraction = () => {
 						});
 					};
 
-					submitForm(); // invoking submitForm function
+					// submitForm(); // invoking submitForm function
 				}
 			}
 		});

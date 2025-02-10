@@ -26,6 +26,13 @@ module.exports = {
 			filename: 'contact.html',
 			// chunks: '',
 		}),
+
+		// product page quote page
+		new HtmlWebpackPlugin({
+			template: './src/template/quote.html',
+			filename: 'quote.html',
+			// chunks: '',
+		}),
 	],
 
 	module: {
