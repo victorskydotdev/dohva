@@ -69,12 +69,17 @@ const frankTemplate = () => {
       <h4 class="heading">Frank Onyeisi Okonkwo</h4>
 
       <p class="profile">
-        Frank Onyeisi Okonkwo is the Head of Sales for Europe and the United States at DOHVA Transafrican Limited. With over 10 years of experience in the logistics sector, he has held key positions in various multinational companies, specializing in sales strategy and client relations.
+        Mr. Frank Onyeisi Okonkwo is the Head of Sales for Europe and the United States at DOHVA Transafrican Limited. With over 10 years of experience in the logistics sector, he has held key positions in various multinational companies, specializing in sales strategy and client relations.
 
         <br />
         <br />
 
         Based in Luxembourg, Mr. Okonkwo leverages his extensive industry knowledge to drive growth and enhance customer satisfaction. His leadership has been crucial in expanding DOHVA's market presence and optimizing service delivery.
+
+        <br />
+        <br />
+
+        In addition, he is the founder of Okonkwo et Fils Nig Ltd, a registered company in Nigeria that specializes in the import and export of goods and services, including general contracting. Under his leadership, the company has established a strong reputation for quality and reliability in the logistics and trade sectors.
 
         <br />
         <br />

@@ -38,15 +38,6 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.scss$/,
-				use: [
-					'style-loader', // 3. injects the styles into the DOM
-					'css-loader', // 2. turns css into commonjs
-					'sass-loader', // 1. turns scss into css
-				],
-			},
-
-			{
 				test: /\.html$/,
 				use: ['html-loader'],
 			},
