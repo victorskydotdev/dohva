@@ -7,6 +7,7 @@ import { undoFooterMargin } from './app/app';
 import { runTransitions } from './app/page-trainsition';
 import { formInteraction } from './app/quote-form';
 import { showTeamProfile } from './app/team-profile';
+import { goToProductSection } from './app/app';
 
 loadNavbar();
 loadFooter();
@@ -16,3 +17,4 @@ undoFooterMargin();
 runTransitions();
 formInteraction();
 showTeamProfile();
+goToProductSection();
