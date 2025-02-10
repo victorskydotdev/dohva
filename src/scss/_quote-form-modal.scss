@@ -10,7 +10,6 @@
 	background: rgba($color: #000000, $alpha: 0.7);
 	z-index: 4;
 	transition: all 0.5s ease-in-out;
-	// transform: translateY(-100%);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -53,6 +52,26 @@
 					@include poppins-regular();
 					margin-bottom: 0.8em;
 				}
+
+				label {
+					@include poppins-bold();
+					display: inline-block;
+					margin-bottom: 0.6em;
+					margin-top: 0.5em;
+					color: $blue;
+					text-transform: capitalize;
+				}
+
+				select {
+					margin-bottom: 1.1em;
+					width: 100%;
+					padding: 1em 1.3em;
+					border-radius: 10px;
+					border: none;
+					@include poppins-regular();
+					color: #646464;
+					background: #d9d9d9;
+				}
 			}
 
 			.btn-wrap {
@@ -81,7 +100,7 @@
 
 		@media screen and (min-width: 62em) {
 			width: 50%;
-			padding: 2em 2em 4em 2em;
+			padding: 2em 2em 3em 2em;
 
 			.quote-form {
 				.wrap {

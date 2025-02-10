@@ -2,6 +2,16 @@ const prodCard = document.querySelectorAll('.prod-card');
 const quoteFormModal = document.querySelector('.quote-form-modal');
 const domBody = document.querySelector('.dom-body');
 
+const closeBtn = document.querySelector('.quote-form-close-btn');
+
+if (closeBtn) {
+	closeBtn.addEventListener('click', () => {
+		// alert('button clicked');
+
+		window.location.href = '/#our-products';
+	});
+}
+
 const idArray = [
 	'ginger',
 	'dried-ginger',
@@ -83,7 +93,7 @@ const formInteraction = () => {
 
 			for (let index = 0; index < idArray.length; index += 1) {
 				if (idArray[index] === id) {
-					alert('button clicked');
+					// alert('button clicked');
 
 					window.location.href = '/quote.html';
 					// domBody.style.overflow = 'hidden';

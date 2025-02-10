@@ -73,17 +73,14 @@ function loadFooter() {
             <!-- item 1 -->
             <div class="accordion-item">
               <div class="question-wrap">
-                <h4 class="text">What is Dohva Trabsafrican?</h4>
+                <h4 class="text">Who we are?</h4>
 
                 <div class="icon-wrap">+</div>
               </div>
 
               <div class="content">
                 <p class="text">
-                  Lorem ipsum dolor sit amet consectetur. Ultrices purus nunc
-                  amet massa et. Mattis quam gravida eu ante cras. Donec elit
-                  sit id metus. Consectetur lacus placerat vestibulum volutpat
-                  elit.
+                  We specialize in exporting high quality agricultural products and bio-energy solutions.
                 </p>
               </div>
             </div>

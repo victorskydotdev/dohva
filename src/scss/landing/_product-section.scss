@@ -105,10 +105,10 @@
 						&::after {
 							content: 'get Quote';
 							position: absolute;
-							top: 50%;
+							top: 40%;
 							left: 50%;
 							color: $light;
-							transform: translate(-50%, -50%);
+							transform: translate(-60%, -50%);
 							background: red;
 							opacity: 0;
 							transition: all 0.5s ease;
@@ -152,7 +152,7 @@
 
 			.prod-layout2 {
 				@media screen and (min-width: 62em) {
-					flex-wrap: nowrap;
+					// flex-wrap: nowrap;
 				}
 			}
 		}
