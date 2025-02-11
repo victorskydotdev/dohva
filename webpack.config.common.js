@@ -40,6 +40,20 @@ module.exports = {
 			filename: 'quote-success.html',
 			// chunks: '',
 		}),
+
+		// newsletter success page
+		new HtmlWebpackPlugin({
+			template: './src/template/newsletter-success.html',
+			filename: 'newsletter-success.html',
+			// chunks: '',
+		}),
+
+		// contact form success page
+		new HtmlWebpackPlugin({
+			template: './src/template/contact-success.html',
+			filename: 'contact-success.html',
+			// chunks: '',
+		}),
 	],
 
 	module: {

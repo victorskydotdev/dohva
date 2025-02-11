@@ -44,19 +44,25 @@
 						<h4 class="heading">Contact our sales team</h4>
 					</div>
 
-					<form action="" class="contact-form" name="contact-form" netlify>
+					<form
+						action="/contact-success.html"
+						class="contact-form"
+						name="contact-form"
+						netlify>
 						<div class="wrap name-wrap">
 							<input
 								type="text"
 								id="first-name"
 								name="first-name"
-								placeholder="First name" />
+								placeholder="First name"
+								required />
 
 							<input
 								type="text"
 								id="last-name"
 								name="last-name"
-								placeholder="last name" />
+								placeholder="last name"
+								required />
 						</div>
 
 						<div class="wrap">
@@ -64,7 +70,8 @@
 								type="email"
 								name="email-address"
 								id="email-address"
-								placeholder="Email address" />
+								placeholder="Email address"
+								required />
 						</div>
 
 						<div class="wrap">
@@ -72,14 +79,16 @@
 								type="text"
 								name="phone"
 								id="phone"
-								placeholder="+234 810 078 4622" />
+								placeholder="+234 810 078 4622"
+								required />
 						</div>
 
 						<div class="wrap">
 							<textarea
 								name="contact-message"
 								id="message"
-								placeholder="Message"></textarea>
+								placeholder="Message"
+								required></textarea>
 						</div>
 
 						<div class="btn-wrap">
@@ -173,6 +182,59 @@
 			</div>
 		</div>
 
+		<div class="newsletter-layout">
+			<div class="img-wrap">
+				<img src="../assets/vector-1.svg" alt="" />
+			</div>
+
+			<div class="wrap">
+				<div class="text-wrap">
+					<h3 class="heading intersecting-element">
+						Don't miss any of our products in high-yield seasons
+					</h3>
+
+					<p class="subtext intersecting-element">
+						Join our Mailing and Newsletter list and get instant notification in
+						your inbox
+					</p>
+				</div>
+
+				<div class="form-wrap intersecting-element">
+					<form
+						action="/newsletter-success.html"
+						name="newsletter-form"
+						netlify
+						class="newsletter-form">
+						<div class="wrap">
+							<input
+								type="text"
+								id="subscriber-email"
+								name="subscriber-name"
+								placeholder="Your Name"
+								required />
+
+							<input
+								type="email"
+								name="subscriber-email"
+								id="subscriber-email"
+								placeholder="Your Email Address"
+								required />
+						</div>
+
+						<div class="btn-wrap">
+							<button class="submit-btn" type="submit">
+								Subscribe to Newsletter
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footer-container"></div>
+		</footer>
+
 		<!-- whatsapp chat icon link -->
 		<div class="fixed-whatsapp">
 			<button class="whatsapp-btn">
@@ -181,9 +243,5 @@
 				</a>
 			</button>
 		</div>
-
-		<footer class="footer">
-			<div class="footer-container"></div>
-		</footer>
 	</body>
 </html>

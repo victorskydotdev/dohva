@@ -75,10 +75,25 @@ li {
 	font-size: 1rem;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
+	position: relative;
+	overflow: hidden;
 
-	&:hover {
+	&::after {
+		content: '';
+		position: absolute;
+		transition: all 0.4s ease-in;
+		transform: scale(0, 1);
+		// transform-origin: left;
+	}
+
+	&:hover::after {
 		background: rgba(0, 0, 254, 0.801);
-		border-bottom: 2px solid $red;
+		height: 4px;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		background: $red;
+		transform: scale(1, 1);
 	}
 }
 

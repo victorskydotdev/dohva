@@ -7,47 +7,7 @@ const footer = document.querySelector('.footer');
 
 function loadFooter() {
 	const footerTemplate = `
-    <div class="newsletter-layout">
-      <div class="img-wrap">
-        <img src="${vectorOne}" alt="" />
-      </div>
-
-      <div class="wrap">
-        <div class="text-wrap">
-          <h3 class="heading intersecting-element">
-            Don't miss any of our products in high-yield seasons
-          </h3>
-
-          <p class="subtext intersecting-element">
-            Join our Mailing and Newsletter list and get instant notification
-            in your inbox
-          </p>
-        </div>
-
-        <div class="form-wrap intersecting-element">
-          <form action="/" name="newsletter-form" netlify class="newsletter-form">
-            <div class="wrap">
-              <input
-                type="text"
-                id="subscriber-email"
-                name="subscriber-name"
-                placeholder="Your Name" />
-              <input
-                type="email"
-                name="subscriber-email"
-                id="subscriber-email"
-                placeholder="Your Email Address" />
-            </div>
-
-            <div class="btn-wrap">
-              <button class="submit-btn" type="submit">
-                Subscribe to Newsletter
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
+    
 
     <div class="faq-section ">
       <div class="img-wrap pos-img1">

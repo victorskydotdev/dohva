@@ -1,0 +1,71 @@
+@import '../scss/resets';
+
+.success-msg-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba($color: #000000, $alpha: 0.7);
+	z-index: 4;
+	transition: all 0.5s ease-in-out;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.container {
+		background: $light;
+		padding: 3em 1.5em;
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+		border-radius: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.wrap {
+			text-align: center;
+			max-width: 500px;
+
+			.success-icon {
+				margin-bottom: 1em;
+
+				img {
+					width: 60px;
+				}
+			}
+
+			.heading {
+				@include heading-mixin();
+				font-size: 1.4rem;
+				line-height: 1.2;
+				margin-bottom: 0.7em;
+			}
+
+			.text {
+				color: $grey;
+				margin-bottom: 1.9em;
+			}
+
+			a {
+				@include btn-mixin();
+				display: inline-block;
+			}
+		}
+
+		@media screen and (min-width: 43em) {
+			width: 70%;
+		}
+
+		@media screen and (min-width: 62em) {
+			width: 50%;
+			padding: 3.5em 2em 3em 2em;
+		}
+	}
+}
+
+// .show-form-modal {
+// 	transform: translateY(0);
+// }
