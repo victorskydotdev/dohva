@@ -11,9 +11,19 @@
 		}
 
 		.text-wrap {
+			max-width: 600px;
+			margin: 0 auto;
+			text-align: center;
+
 			.heading {
 				@include heading-mixin();
-				margin-bottom: 1em;
+				margin-bottom: 0.3em;
+			}
+
+			.subtext {
+				color: $grey;
+				font-size: 15px;
+				margin-bottom: 4em;
 			}
 		}
 
