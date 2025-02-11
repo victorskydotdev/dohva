@@ -33,6 +33,13 @@ module.exports = {
 			filename: 'quote.html',
 			// chunks: '',
 		}),
+
+		// quote success page
+		new HtmlWebpackPlugin({
+			template: './src/template/quote-success.html',
+			filename: 'quote-success.html',
+			// chunks: '',
+		}),
 	],
 
 	module: {
